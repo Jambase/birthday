@@ -1,14 +1,20 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Birthday Card
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="page" padding>
+    <ion-content class="card-background-page">
+   
+      <h3>Today a king was born!!!</h3>
+        <ion-card>
+          <img src="../assets/imgs/images.jpg"/>
+          <div class="card-title">To: Neo</div>
+          <div class="card-subtitle">From: Lwazi</div>
+        </ion-card>
+        <button (click)="showAlert()"ion-button color="secondary"><h1>Please Click me For a special messagge</h1></button>
+      </ion-content>
 </ion-content>
